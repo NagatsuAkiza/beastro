@@ -6,9 +6,9 @@ const supabase = require("@supabase/supabase-js");
 const app = express();
 app.use(express.json());
 
-const SUPABASE_URL = "https://exgkkbygfgyxpigotesp.supabase.co";
+const SUPABASE_URL = "-";
 const SUPABASE_SERVICE_ROLE =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV4Z2trYnlnZmd5eHBpZ290ZXNwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxNDYzNTgyNCwiZXhwIjoyMDMwMjExODI0fQ.NRvI5mE-8zb3DmSNcLaAysHRnw_Jz4t9ZGbWBvAq-8E";
+  "-";
 
 const db = supabase.createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE);
 
